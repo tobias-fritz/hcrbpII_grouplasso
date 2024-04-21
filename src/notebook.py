@@ -55,7 +55,7 @@ def predict_new_maximum(gl: GroupLasso, wt_seq: str, mutant: str) -> float:
 def find_greedy_mutant(target_wavelength: int, 
                        coefficients: np.ndarray, 
                        wt_seq: str,
-                       WT_wavelength: int=576,
+                       WT_wavelength: int=570,
                        threshold: int=5) -> Tuple[str, int]:
     """Using a graph, find a mutant that is closest to the target absorption maximum.
 
