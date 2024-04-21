@@ -54,9 +54,8 @@ def predict_new_maximum(gl: GroupLasso, wt_seq: str, mutant: str) -> float:
 
 def find_greedy_mutant(target_wavelength: int, 
                        coefficients: np.ndarray, 
-                       wt_residues: np.ndarray,
                        wt_seq: str,
-                       WT_wavelength: int=570,
+                       WT_wavelength: int=576,
                        threshold: int=5) -> Tuple[str, int]:
     """Using a graph, find a mutant that is closest to the target absorption maximum.
 
@@ -80,7 +79,8 @@ def find_greedy_mutant(target_wavelength: int,
     # Get all the positions with non-zero coefficients
     non_zero_positions = np.where(np.any(coefficients != 0, axis=1))[0]
     non_zero_coefficients = coefficients[np.any(coefficients != 0, axis=1), :]
-
+    wt_residues = np.asarray([one_hot_encode(aa) for aa in wt_seq])
+    
     # Remove the wild type residue from the coefficients to get the pure shifts
     for i, pos in enumerate(non_zero_positions):
         wt_residue = wt_residues[pos]
