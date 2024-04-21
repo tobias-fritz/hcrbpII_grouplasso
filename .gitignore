@@ -4,6 +4,5 @@ data/glasso_benchmark.png* file.
 data/*.py
 data/*.json
 data/*.png
-data/*.csv
 
 src/__pycache__
