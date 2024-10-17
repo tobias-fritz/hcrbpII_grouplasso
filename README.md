@@ -7,7 +7,7 @@ Several studies have explored the absorption-shifting effects of different subst
 For more information about the theory of group lasso regularization read the documentation that can be found [here](https://group-lasso.readthedocs.io/en/latest/index.html#).
 
 ## How to use
-- Try it out online by clicking on the Binder badge here &rarr [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/tobias-fritz/hcrbpII_grouplasso/HEAD)
+- Try it out online by clicking on the Binder badge here &rarr; [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/tobias-fritz/hcrbpII_grouplasso/HEAD)
 - You can also run the model from ```hcrbpII.ipynb``` localy, after installing the dependencies from the ```enviornment.yml``` using conda with: ```conda env create -f environment.yml```
 - In the notebook, a precompiled ```gl``` model is loaded from the data folder, compiled with gamma=0.11, n_iter=15000, tol=1e-8
 - Please make sure to use the proper citations when using the data, sourced from scientifc work (in this casse  Wenjing Wang et al. Science 338,1340-1343 (2012). DOI:10.1126/science.1226135). 
