@@ -6,8 +6,14 @@ Human cellular retinol-binding protein II (CRBP II) is an excellent model system
 Several studies have explored the absorption-shifting effects of different substitutions both experimentally and in silico [1] [2]. In this notebook, I briefly introduce how we can analyze the mutation data obtained from these studies to identify and quantify the effects of these substitutions on the absorption properties of the chromophore in hCRBP II. This approach is based on a Karasuyama, M. et al. using an ML group-wise sparsity regularization approach to identify color-tuning rules in Rhodopsins [3]. Sparse group lasso regularizers are a type of regularization technique used in machine learning to identify important features and reduce overfitting. They work by promoting sparsity both within individual feature groups and across all feature groups simultaneously, allowing for the selection of a subset of the most relevant features. By analyzing the coefficients of the model, we can gain insights into the effects of different substitutions on the absorption properties of the chromophore without prior knowledge of the protein structure. <p>
 For more information about the theory of group lasso regularization read the documentation that can be found [here](https://group-lasso.readthedocs.io/en/latest/index.html#).
 
+## Running the Notebook
+
+You can run the notebook online using Binder. Click the badge below to launch the notebook:
+
+ [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/tobias-fritz/hcrbpII_grouplasso/HEAD)
+ 
 ## How to use
-- Try it out online by clicking on the Binder badge here &rarr; [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/tobias-fritz/hcrbpII_grouplasso/HEAD)
+
 - You can also run the model from ```hcrbpII.ipynb``` localy, after installing the dependencies from the ```enviornment.yml``` using conda with: ```conda env create -f environment.yml```
 - In the notebook, a precompiled ```gl``` model is loaded from the data folder, compiled with gamma=0.11, n_iter=15000, tol=1e-8
 - Please make sure to use the proper citations when using the data, sourced from scientifc work (in this casse  Wenjing Wang et al. Science 338,1340-1343 (2012). DOI:10.1126/science.1226135). 
