@@ -198,4 +198,4 @@ dependencies:
       - threadpoolctl==3.4.0
       - tzdata==2024.1
       - widgetsnbextension==4.0.10
-prefix: /stor/home/tfritz/.conda/envs/hcrbp_gl
+
