@@ -13,16 +13,9 @@ For more information about the theory of group lasso regularization, read the do
 You can run the notebook online using Binder. Click the badge below to launch the notebook:
 
  [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/tobias-fritz/hcrbpII_grouplasso/HEAD)
- 
-## How to use
-
-- You can also run the model from ```hcrbpII.ipynb``` localy, after installing the dependencies from the ```enviornment.yml``` using conda with: ```conda env create -f environment.yml```
-- In the notebook, a precompiled ```gl``` model is loaded from the data folder, compiled with gamma=0.11, n_iter=15000, tol=1e-8
-- Please make sure to use the proper citations when using the data, sourced from scientifc work (in this casse  Wenjing Wang et al. Science 338,1340-1343 (2012). DOI:10.1126/science.1226135). 
-- In data/hcrbpII.csv, references are provided for each data entry used in this notebook.
 
 ## How to Use
-- Try it out online by clicking on the Binder badge here &rarr; [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/tobias-fritz/hcrbpII_grouplasso/HEAD)
+
 - You can also run the model from `hcrbpII.ipynb` locally, after installing the dependencies from the `environment.yml` using conda with: `conda env create -f environment.yml`
 - In the notebook, a precompiled `gl` model is loaded from the data folder, compiled with gamma=0.11, n_iter=15000, tol=1e-8
 - Please make sure to use the proper citations when using the data, sourced from scientific work (in this case Wenjing Wang et al. Science 338, 1340-1343 (2012). DOI:10.1126/science.1226135).
