@@ -32,3 +32,6 @@ You can run the notebook online using Binder. Click the badge below to launch th
 [1]: C.-M. Suomivuori, L. Lang, D. Sundholm, A. P. Gamiz-Hernandez, V. R. I. Kaila, Chem. Eur. J. 2016, 22, 8254
 [2]: Wenjing Wang et al. Science 338, 1340-1343 (2012). DOI:10.1126/science.1226135
 [3]: Karasuyama, M., Inoue, K., Nakamura, R. et al. Sci Rep 8, 15580 (2018)
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
